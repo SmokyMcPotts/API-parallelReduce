@@ -30,7 +30,7 @@ const clone = async () => {
   };
 
   let ctr = 1;
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 7; i++) {
     await cloneBob(`Bob${ctr}`);
     ctr += 1;
     console.log(`The list ${(ctr > 6) ? 'already ' : ''}contains ${users.length} addresses.`);
